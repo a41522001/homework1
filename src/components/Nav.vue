@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">首頁</a>
+                        <router-link to="/home" class="nav-link">首頁</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/homework" class="nav-link">作品集</router-link>
